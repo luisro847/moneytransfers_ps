@@ -1,6 +1,6 @@
 {
   "name": "remesas-front-end",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A Quasar Project",
   "productName": "Estacion de Remesas",
   "author": "alframirez <alframirezg@gmail.com>",
@@ -10,7 +10,8 @@
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
-    "build": "quasar build"
+    "build": "quasar build",
+    "start": "quasar dev"
   },
   "dependencies": {
     "axios": "^1.2.1",
